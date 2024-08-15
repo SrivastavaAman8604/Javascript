@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
     <title>Document</title>
 </head>
 <body>
     <h1>Hello Javascript Test</h1>
-    <button id="clickme">Click me</button>
+    <button id="clickme" onclick="alert(this)">Click me</button> <!--this referes to button (output: [object HTMLButtonElement])-->
+    <button onclick="alert(this.tagName)">Click Me</button> <!--this referes to button tagname (output: Button)-->
     <!-- <script src="function&variable.js"></script> -->
-    <script src="callback.js"></script>
+    <!-- <script src="EventLoop.js"></script> -->
+    <!-- <script src="HighOrderFuc.js"></script> -->
+     <!-- <script src="map-filter-reduce.js"></script> -->
+     <!-- <script src="async-await.js"></script> -->
+     <!-- <script src="promiseAPI.js"></script> -->
+     <script src="thisKeyword.js"></script>
 </body>
 </html>
